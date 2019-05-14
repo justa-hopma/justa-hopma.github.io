@@ -150,7 +150,8 @@
   align-self: center;
   margin-bottom: 25px;
   @media only screen and (min-width: 750px) {
-    width: 18rem;
+    width: 17rem;
+    min-width: 17rem;
     height: 18rem;
     margin-bottom: 0;
   }
