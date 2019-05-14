@@ -13,11 +13,11 @@
         </figure>
         <div class="card-content">
           <div class="card-header">
-            <h1>Dr Justa Hopma</h1>
+            <h1>{{ site.title }}</h1>
             <div class="card-detail-row">
               <div class="card-subheadings">
-                <h2>Food Security Specialist</h2>
-                <h3>Academic and Consultant</h3>
+                <h2>{{ site.role }}</h2>
+                <h3>{{ site.specialism }}</h3>
               </div>
               <div class="contact-details">
                 {%- include social.html %}
@@ -25,10 +25,7 @@
             </div>
           </div>
           <p class="card-biography">
-            I am a food security specialist with seven years of experience in academia and consulting. My written work
-            has been published in peer-reviewed journals and other media outlets. I have appeared in various broadcast
-            media and conducted fieldwork in Bolivia, France, Jordan and Uganda. I am interested in food system change;
-            governance & strategy; and low cost agri-tech for smallholders.
+            {{site.biography}}
           </p>
         </div>
       </div>

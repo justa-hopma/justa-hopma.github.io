@@ -1,28 +1,18 @@
 <ul class="social-media-list">
   {%- if site.email -%}
   <li>
-    <a href="mailto:{{ site.email| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use>
-      </svg>
-    </a>
+    <a href="mailto:{{ site.email| cgi_escape | escape }}" class="svg-icon email"></a>
   </li>
   {%- endif -%}
   {%- if site.linkedin_username -%}
   <li>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
-      </svg>
-    </a>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"
+      class="svg-icon linkedin"></a>
   </li>
   {%- endif -%}
   {%- if site.twitter_username -%}
   <li>
-    <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
-      </svg>
+    <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" class="svg-icon twitter">
     </a>
   </li>
   {%- endif -%}

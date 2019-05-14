@@ -1,12 +1,25 @@
-title: Dr Justa Hopma
-email: justa@aainternational.co.uk
-description: >- # this means to ignore newlines until "baseurl:"
+# SEO
+description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Site settings Generally... do not change thes
+baseurl: ""
+url: ""
+markdown: kramdown
+
+# Site Content
+title: Dr Justa Hopma
+role: Food Security Specialist
+specialism: Academic and Consultant
+biography: >-
+  I am a food security specialist with seven years of experience in academia and consulting. My written work
+  has been published in peer-reviewed journals and other media outlets. I have appeared in various broadcast
+  media and conducted fieldwork in Bolivia, France, Jordan and Uganda. I am interested in food system change;
+  governance & strategy; and low cost agri-tech for smallholders.
+
+# Contact links
+email: justa@aainternational.co.uk
 twitter_username: justamh
 linkedin_username: justa-hopma
-# Build settings
-markdown: kramdown
