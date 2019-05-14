@@ -143,13 +143,13 @@
 .profile-image {
   border-radius: 50%;
   overflow: hidden;
-  min-height: 9rem;
-  min-width: 9rem;
+  height: 9rem;
+  width: 9rem;
   margin-bottom: 0;
   align-self: center;
   margin-bottom: 25px;
   @media only screen and (min-width: 750px) {
-    min-width: 18rem;
+    width: 18rem;
     height: 18rem;
     margin-bottom: 0;
   }
