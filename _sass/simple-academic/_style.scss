@@ -152,16 +152,16 @@
   @media only screen and (min-width: 750px) {
     width: 17rem;
     min-width: 17rem;
-    height: 18rem;
+    height: 17rem;
     margin: 0 auto;
   }
 
   img {
-    max-height: 14rem;
-    max-width: 14rem;
+    max-height: 9.5rem;
+    max-width: 9.5rem;
     @media only screen and (min-width: 750px) {
-      max-height: 21rem;
-      max-width: 21rem;
+      max-height: 18rem;
+      max-width: 18rem;
     }
   }
 }
