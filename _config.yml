@@ -1,4 +1,5 @@
 # SEO
+tagline: Dr Justa Hopma | Food Security Specialist | Academic and Consultant
 description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -6,7 +7,7 @@ description: >-
 
 # Site settings Generally... do not change these
 baseurl: ""
-url: ""
+url: https://justahopma.com/
 markdown: kramdown
 
 # Site Content
@@ -23,3 +24,8 @@ biography: >-
 email: justa@aainternational.co.uk
 twitter_username: justamh
 linkedin_username: justa-hopma
+social:
+  name: Dr Justa Hopma
+  links:
+    - https://twitter.com/justamh
+    - https://www.linkedin.com/in/justa-hopma
